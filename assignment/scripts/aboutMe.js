@@ -66,7 +66,7 @@ pets += 2;
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
-let allowedPets = 0;
+let allowedPets = 1;
 
 
 
@@ -75,7 +75,7 @@ let allowedPets = 0;
 
 if(adventurous == true) {
     console.log('Adventers are greate!');
-}
+} //end
 else if(adventurous == false) {
     console.log('How about we stay home?');
 }
@@ -85,7 +85,7 @@ else if(adventurous == false) {
 
 if(adventurous == true && luckyNumber == 2) {
     console.log('Roll the dice!');
-}
+} //end
 
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
@@ -94,9 +94,15 @@ if(adventurous == true && luckyNumber == 2) {
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
-
-
-
+if(pets < allowedPets){
+    console.log('I have can have more pets!');
+} //end
+if(pets === allowedPets){
+    console.log('I have enough pets');
+} //end
+if(pets > allowedPets){
+    console.log('Oh no, I have too many pets!');
+} //end
 
 
 
@@ -108,6 +114,11 @@ if(adventurous == true && luckyNumber == 2) {
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
+
+
+
+
+
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
 //      "Second is the best" if your lucky number is 2
@@ -116,5 +127,13 @@ if(adventurous == true && luckyNumber == 2) {
 //      You'll need to research how to use switch statements!
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+
+
+
+
+
+
+
+
 
 
