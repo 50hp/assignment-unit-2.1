@@ -56,7 +56,7 @@ let pets = 0;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
-let friendsPets = 0;
+let friendsPets = 3;
 
 
 // 11 - Add two pets to your `pets` variable
@@ -114,8 +114,20 @@ if(pets > allowedPets){
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
+let mostPets;
 
-
+if(pets<friendsPets){
+    mostPets = friendsPets;
+    console.log(mostPets + ' friendsPets');
+}
+if(pets>friendsPets){
+    mostPets = pets;
+    console.log(mostPets + ' pets');
+}
+if(pets===friendsPets){
+    mostPets = 'pets and friendsPets are equal'
+    console.log(mostPets);
+}
 
 
 
