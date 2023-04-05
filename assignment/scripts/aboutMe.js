@@ -82,11 +82,9 @@ else if(adventurous == false) {
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-
 if(adventurous == true && luckyNumber == 2) {
     console.log('Roll the dice!');
 } //end
-
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
@@ -138,8 +136,35 @@ if(pets===friendsPets){
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 
-// 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
+
+switch (luckyNumber) {
+    case 1:
+        console.log('First is the worst');
+        break;
+    case 2:
+        console.log('Second is the best');
+        break;
+    case 3:
+        console.log('Third is the one with the polka dot dress');
+        break;
+    default:
+        console.log('Luck is what happens when preparation meets opportunity');
+
+}
+
+
+
+// 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+// - Create a conditional: if adventurous is true, console log "Adventures are great!", 
+// if it's not true, console log "How about we stay home?"
+
+if(adventurous == true) {
+    console.log('Adventers are greate!');
+} //end
+else if(adventurous == false) {
+    console.log('How about we stay home?');
+}
 
 
 
