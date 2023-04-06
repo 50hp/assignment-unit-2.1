@@ -115,7 +115,7 @@ if(pets > allowedPets){
 let mostPets;
 
 if(pets<friendsPets){
-    mostPets = friendsPets + 'friendsPets';
+    mostPets = friendsPets + ' friendsPets';
 }
 if(pets>friendsPets){
     mostPets = pets + ' pets';
