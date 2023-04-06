@@ -51,7 +51,7 @@ let food = 'Pierogies'
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 
-let pets = 0;
+let pets = 1;
 
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
@@ -117,12 +117,13 @@ let mostPets;
 if(pets<friendsPets){
     mostPets = friendsPets + ' friendsPets';
 }
-if(pets>friendsPets){
+else if(pets>friendsPets){
     mostPets = pets + ' pets';
 }
-if(pets===friendsPets){
-    mostPets = 'pets and friendsPets are equal'
+else if(pets===friendsPets){
+    mostPets = pets + ' pets and friendsPets are equal'
 }
+
 console.log(mostPets);
 
 // 17 - Write a *switch* statement that logs:
