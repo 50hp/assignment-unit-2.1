@@ -51,7 +51,7 @@ let food = 'Pierogies'
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 
-let pets = 1;
+let pets = 0;
 
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
@@ -95,10 +95,10 @@ if(adventurous == true && luckyNumber == 2) {
 if(pets < allowedPets){
     console.log('I have can have more pets!');
 } //end
-if(pets === allowedPets){
+ else if(pets === allowedPets){
     console.log('I have enough pets');
 } //end
-if(pets > allowedPets){
+else if(pets > allowedPets){
     console.log('Oh no, I have too many pets!');
 } //end
 
