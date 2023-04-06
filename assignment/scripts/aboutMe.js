@@ -120,7 +120,7 @@ if(pets<friendsPets){
 else if(pets>friendsPets){
     mostPets = pets + ' pets';
 }
-else if(pets===friendsPets){
+else {
     mostPets = pets + ' pets and friendsPets are equal'
 }
 
