@@ -115,19 +115,15 @@ if(pets > allowedPets){
 let mostPets;
 
 if(pets<friendsPets){
-    mostPets = friendsPets;
-    console.log(mostPets + ' friendsPets');
+    mostPets = friendsPets + 'friendsPets';
 }
 if(pets>friendsPets){
-    mostPets = pets;
-    console.log(mostPets + ' pets');
+    mostPets = pets + ' pets';
 }
 if(pets===friendsPets){
     mostPets = 'pets and friendsPets are equal'
-    console.log(mostPets);
 }
-
-
+console.log(mostPets);
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
