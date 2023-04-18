@@ -66,7 +66,7 @@ pets += 2;
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
-let allowedPets = 1;
+const allowedPets = 1;
 
 
 
